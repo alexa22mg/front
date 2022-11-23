@@ -146,7 +146,7 @@ ul {
 }
 
 
-/*Contactenos*/
+/*Contactenos
 
 .contenedor {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.todofondos.net/wp-content/uploads/1131x707-Fondo-de-Pantalla-de-Gato-Lindo-HD-1024x640.jpg');
@@ -272,7 +272,7 @@ ul {
 
 @media (min-width:320px) {
 
-    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) 
     table,
     p,
     img {
@@ -282,26 +282,26 @@ ul {
 }
 
 @media (min-width:480px) {
-    /* smartphones, Android phones, landscape iPhone */
+    /* smartphones, Android phones, landscape iPhone 
 }
 
 @media (min-width:600px) {
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-}
+/*}
 
 @media (min-width:801px) {
     /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
+/*}
 
 @media (min-width:1025px) {
-    /* big landscape tablets, laptops, and desktops */
+    /* big landscape tablets, laptops, and desktops 
 }
 
 @media (min-width:1281px) {
-    /* hi-res laptops and desktops */
+    /* hi-res laptops and desktops 
 }
 
-/*secsion producto y servicio*/
+/*secsion producto y servicio
 * {
     margin: 0;
     padding: 0;
@@ -351,7 +351,7 @@ a {
 
 /** ========================
  * Contenedor
- ============================*/
+ ===========================
 .pricing-wrapper {
     width: 960px;
     margin: 40px auto 0;
@@ -488,7 +488,7 @@ a {
 
 /** ================
  * Responsive
- ===================*/
+ ===================
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .pricing-wrapper {
         width: 768px;
