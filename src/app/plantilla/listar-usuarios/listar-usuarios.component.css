@@ -1,0 +1,96 @@
+table {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 1.42em;
+    color:#4B4A4B;
+    background-color:#FFDAC4;
+    background: url(http://www.pixeden.com/media/k2/galleries/131/002-subtle-light-pattern-background-texture.jpg);
+}
+
+h1 {
+    font-size:3em; 
+    font-weight: 300;
+    line-height:1em;
+    text-align: center;
+    color: #060606;
+}
+
+.table th h1 {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+      color: #FFFFFF;
+}
+
+.table td {
+    font-weight: normal;
+    font-size: 1em;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+    -moz-box-shadow: 0 2px 2px -2px #0E1119;
+    box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.table {
+    text-align: left;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 8em 0;
+}
+
+.table td, .table th {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left:2%;  
+}
+
+.table tr:nth-child(odd) {
+    background: linear-gradient(135deg,#b5caef, #cbe8d2 );
+}
+
+.table tr:nth-child(even) {
+    background: linear-gradient(135deg,#d7e0f1, #dcf6e2 );
+}
+
+.table th {
+    
+   
+    background: linear-gradient(135deg, #e4addc, #a6c2f4);
+}
+
+.table td:first-child { 
+    color: #0e0d0d; 
+}
+
+.table tr:hover {
+    background: linear-gradient(135deg, #f8ddf4, #bcd2fb);
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+    -moz-box-shadow: 0 6px 6px -6px #0E1119;
+    box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+td a {
+    color: #4B4A4B;
+}
+
+td a:hover {
+    color: #FFFFFF;
+}
+
+.table td.icono:hover {
+    background-color: #FC1231;
+    
+    box-shadow: #BA0F26 -1px 1px, #BA0F26 -2px 2px, #BA0F26 -3px 3px, #BA0F26 -4px 4px, #BA0F26 -5px 5px, #BA0F26 -6px 6px;
+    transform: translate3d(6px, -6px, 0);
+
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: line;
+}	
+.table button{
+    background: linear-gradient(135deg,#d7e0f1, #dcf6e2 );
+    border-color: #9ebcf5;
+    border: radius 0;
+}

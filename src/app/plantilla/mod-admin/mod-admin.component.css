@@ -1,0 +1,85 @@
+body {
+    background-image:     url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrvSHrStYGp-ISyEpjMFXAoFWUaIe94-oIoFxzIYGH-Sx46JZX4w");
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+  }
+  
+  .modules-list {
+      position: relative;
+      z-index: 1;
+      padding: 0 15px;
+      margin: 0;
+  }
+  
+  .modules-list li {
+      border-color: #CEDEBB;
+      background-color: rgba(226, 238, 212, 0.7);
+  }
+  
+  .modules-list li {
+      position: relative;
+      width: 303px;
+      height: 200px;
+      list-style: none;
+      text-align: center;
+      background-color: #fffadd;
+      border: 1px solid #f1f1f1;
+      border-radius: 6px;
+      cursor: pointer;
+      padding: 20px 15px;
+      float: left !important;
+      margin: 0 30px 30px 0;
+      box-shadow: inset 0px 1px 2px 0 rgba(193, 193, 193, 0.5);
+  }
+  
+  .modules-list i {
+      width: 84px;
+      height: 96px;
+      background-position: -1px -2px;
+  }
+  
+  .modules-list li * {
+      transition: all 0.5s;
+  }
+  
+  .modules-list li h3 {
+      color: #000;
+      font-size: 18px;
+      font-weight: normal;
+      margin: 20px 0 45px 0;
+  }
+  .modules-list li:hover h3 {
+      font-size: 16px;
+      margin: 12px 0 10px 0;
+  }
+  .modules-list li p {
+      color: #666;
+      font-size: 13px;
+      line-height: 20px;
+  }
+  
+  .modules-list li > div {
+      height: 177px;
+      overflow: hidden;
+  }
+  .modules-list li:hover * {
+      transition: all 0.5s;
+  }
+  
+  .modules-list li:hover i {
+      -webkit-transform: scale(0.5);
+      -moz-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+      -o-transform: scale(0.5);
+      transform: scale(0.5);
+      margin: -20px 0;
+  }
+  
+  .modules-list li:hover{
+    background-color: #f5ddff;
+  }
+  h1{
+    text-align: center;
+  }

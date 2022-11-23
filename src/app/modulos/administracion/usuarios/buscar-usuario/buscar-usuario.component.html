@@ -1,0 +1,46 @@
+<a routerLink="/administracion/crear-usuario" class="btn">Nuevo Cliente</a>
+<table class="table responsive">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>CEDULA</th>
+            <th>NOMBRE</th>
+            <th>APELLIDO</th>
+            <th>TELEFONO</th>
+            <th>COREEO</th>
+            <th>ROL</th>
+            <th></th>
+            <th>opciones</th>
+            <th>
+                Editar
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let u of listadoRegistros">
+            <td>
+                {{u.Cedula}}
+            </td>
+            <td>
+                {{u.Nombre}}
+            </td>
+            <td>
+                {{u.Apellido}}
+            </td>
+            <td>
+                {{u.Telefono}}
+            </td>
+            <td>
+                {{u.Correo}}
+            </td>
+            <td>
+                {{u.Rol}}
+            </td>
+            <td>
+              <a routerLink="/administracion/crear-usuario/{{u.id}}" class="btn"> Editar</a>
+            </td>
+           
+        </tr>
+
+    </tbody>
+</table>

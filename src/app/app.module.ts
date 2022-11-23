@@ -3,14 +3,30 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { BarraNavegacionComponent } from './plantilla/barra-navegacion/barra-navegacion.component';
+import { PiePaginaComponent } from './plantilla/pie-pagina/pie-pagina.component';
+import { InicioComponent } from './plantilla/inicio/inicio.component';
+import { ErrorComponent } from './plantilla/error/error.component';
+import { ModAdminComponent } from './plantilla/mod-admin/mod-admin.component';
+import { ListaMascotasComponent } from './plantilla/lista-mascotas/lista-mascotas.component';
+import { ListarUsuariosComponent } from './plantilla/listar-usuarios/listar-usuarios.component';
+import {HttpClientModule} from '@angular/common/http'
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BarraNavegacionComponent,
+    PiePaginaComponent,
+    InicioComponent,
+    ErrorComponent,
+    ModAdminComponent,
+    ListaMascotasComponent,
+    ListarUsuariosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

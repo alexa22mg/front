@@ -1,0 +1,23 @@
+<nav>
+  <div class="nav-wrapper">
+    <a routerLink="/assets/images/crubww.jpg" class="brand-logo">Logo</a>
+    <a routerLink="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a routerLink="/inicio">Home</a></li>
+      <li *ngIf="seInicioSesion"><a routerLink="/administracion/listar-usuarios">Usuarios</a></li>
+      <li *ngIf="seInicioSesion"><a routerLink="/listarmascotas">mascotas</a></li>
+      <li *ngIf="seInicioSesion"><a routerLink="">Planes</a></li>
+      <li *ngIf="seInicioSesion"><a routerLink="/seguridad/cerrarSesion">cerrar Sesion</a></li>
+      <li *ngIf="!seInicioSesion"><a routerLink="/seguridad/identificar">Iniciar Sesion</a></li>
+    </ul>
+  </div>
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a routerLink="/inicio">Home</a></li>
+  <li *ngIf="seInicioSesion"><a routerLink="/administracion/listar-usuarios">Usuarios</a></li>
+  <li *ngIf="seInicioSesion"><a routerLink="/listarmascotas">mascotas</a></li>
+  <li *ngIf="seInicioSesion"><a routerLink="/seguridad/identificar">Planes</a></li>
+  <li *ngIf="seInicioSesion"><a routerLink="/seguridad/identificar">Iniciar Sesion</a></li>
+  <li *ngIf="!seInicioSesion"><a routerLink="/seguridad/cerrarSesion">Cerrar Sesion</a></li>
+</ul>

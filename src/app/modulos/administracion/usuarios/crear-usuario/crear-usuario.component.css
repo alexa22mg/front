@@ -1,0 +1,40 @@
+body{
+    background-image: url(https://www.petdarling.com/wp-content/uploads/2020/11/razas-de-perros.jpg);
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position:absolute center 25%;
+    max-width: 100%;
+}
+.container{
+    position:right 25%;
+    width: 400px;
+    background: linear-gradient(135deg, #d4d9d5c9, #f5abffc5);
+    padding: 45px;
+    max-width: 1170px;
+    margin: 0 auto 1rem;
+    padding: 1.5rem;
+    align-content:center;
+}
+conteiner.inf{
+    color: rgb(2, 2, 2);
+    text-align: justify;
+
+}
+label {
+    display: block;
+  }
+ br{
+    color: rgb(2, 2, 2);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: justify;
+ }
+ .b{
+    color: rgb(2, 2, 2);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align:center;
+ }
+ 

@@ -1,0 +1,524 @@
+h1 {
+    color: white;
+    font-size: 3.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+#Home {
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 300px 0;
+    background-image: url('https://irp-cdn.multiscreensite.com/970bbd2f/MOBILE/images/9cdcb150-f672-4052-993c-d3ea34876637.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Home h1 {
+    color: white;
+}
+
+#Home button {
+    font-size: 1.75em;
+}
+
+button {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(243, 241, 241, 0.3);
+    box-shadow: 2px 2px 10px rgb(252, 249, 249);
+    color: rgb(255, 255, 255);
+    background: linear-gradient(135deg, rgb(133, 245, 159), rgb(133, 172, 245));
+}
+
+button:hover {
+    background: linear-gradient(135deg, #2675f4a7, #9e4ab9c4);
+}
+
+
+
+/*Ven conocenos*/
+
+.container {
+    padding: 200px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-size: cover;
+
+
+}
+
+
+
+#Conocenos .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#Conocenos h2 {
+    margin-top: 0px;
+}
+
+#Conocenos .img-izquierda {
+    background-size: cover;
+    background-position-y: right;
+    height: 500px;
+    width: 400px;
+
+}
+
+.color-acento {
+    color: blueviolet;
+    text-align: justify;
+}
+
+p {
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+
+/*Vision - Mision*/
+
+.visionmision {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/fotos-premium/medico-veterinario-examinando-perros-gatos-clinica-animales_488220-17516.jpg?w=2000');
+    --opacidad-negro: 0.5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: justify;
+    margin: 0;
+    margin: auto;
+    padding: 200px 0;
+
+}
+
+.visionmision ul {
+    text-align: center;
+    padding: 200px 200px;
+    text-align: justify;
+
+}
+
+h2 {
+    font-size: 2.7em;
+
+}
+
+li {
+    font-size: 1.5em;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+.visionmision li {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*Contactenos*/
+
+.contenedor {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.todofondos.net/wp-content/uploads/1131x707-Fondo-de-Pantalla-de-Gato-Lindo-HD-1024x640.jpg');
+    padding: 200px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+.contenedor .form .form-header .form-title {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #07fa1b;
+    text-align: center;
+    padding: 34px 0;
+}
+
+.contenedor .form .form-header .form-title span {
+    color: #fff;
+}
+
+.contenedor .form {
+    background: rgba(0, 0, 0, .6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+}
+
+.contenedor {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.todofondos.net/wp-content/uploads/1131x707-Fondo-de-Pantalla-de-Gato-Lindo-HD-1024x640.jpg');
+    padding: 200px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+
+.contenedor .form .form-header .form-title {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #07fa1b;
+    text-align: center;
+    padding: 34px 0;
+}
+
+.contenedor .form .form-header .form-title span {
+    color: #fff;
+}
+
+.contenedor .form {
+    background: rgba(0, 0, 0, .6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+.contenedor .form .form-label {
+    display: block;
+    color: #82ff1b;
+    font-size: 16px;
+    font-family: Roboto;
+    position: relative;
+}
+
+.contenedor .form .form-input,
+.form-textarea {
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #5cff1bfd;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    font-family: Roboto;
+}
+
+.contenedor .form .form-textarea {
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+.contenedor .form .btn-submit {
+    width: 100%;
+    font-family: Roboto;
+    outline: none;
+    background: #a9f790;
+    font-size: 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor .form .btn-submit:hover {
+    background: linear-gradient(135deg, #2675f4a7, #9e4ab9c4);
+}
+
+
+
+
+@media (min-width:320px) {
+
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    table,
+    p,
+    img {
+        padding-right: 1em;
+        width: 100%;
+    }
+}
+
+@media (min-width:480px) {
+    /* smartphones, Android phones, landscape iPhone */
+}
+
+@media (min-width:600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+
+@media (min-width:801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+}
+
+/*secsion producto y servicio*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2e2a2a;
+    color: #FFF;
+    font-size: 62.5%;
+    font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #e95846;
+    text-decoration: none;
+}
+
+.pricing-table-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.6em;
+    color: #FFF;
+    margin-top: 15px;
+    text-align: left;
+    margin-bottom: 25px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.pricing-table-title a {
+    font-size: 0.6em;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    clear: both;
+}
+
+/** ========================
+ * Contenedor
+ ============================*/
+.pricing-wrapper {
+    width: 960px;
+    margin: 40px auto 0;
+}
+
+.pricing-table {
+    margin: 0 10px;
+    text-align: center;
+    width: 300px;
+    float: left;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.pricing-table:hover {
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
+}
+
+.pricing-title {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(135deg, #2675f4a7, #9e4ab9c4);
+    padding: 20px 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.988);
+}
+
+.pricing-table.recommended .pricing-title {
+    background: linear-gradient(135deg, #2675f4a7, #9e4ab9c4);
+}
+
+.pricing-table.recommended .pricing-action {
+    background: linear-gradient(135deg, #2675f4a7, #9e4ab9c4);
+}
+
+.pricing-table .price {
+    background: #dd209113;
+    font-size: 3.4em;
+    font-weight: 700;
+    padding: 20px 0;
+    text-shadow: 0 1px 1px rgba(17, 15, 15, 0.885);
+}
+
+.pricing-table .price sup {
+    font-size: 0.4em;
+    position: relative;
+    left: 5px;
+}
+
+.table-list {
+    background: linear-gradient(300deg, #3726f412, #9e4ab9c4);
+    color: #000000;
+}
+
+.table-list li {
+    font-size: 1.4em;
+    font-weight: 700;
+    padding: 12px 8px;
+}
+
+.table-list li span {
+    font-weight: 400;
+}
+
+.table-list {
+    text-align: left;
+}
+
+.table-list li span.unlimited {
+    color: #FFF;
+    background: #e95846;
+    font-size: 0.9em;
+    padding: 5px 7px;
+    display: inline-block;
+    -webkit-border-radius: 38px;
+    -moz-border-radius: 38px;
+    border-radius: 38px;
+}
+
+.table-list li:nth-child(2n) {
+    background: linear-gradient(300deg, #3726f412, #9e4ab9c4);
+}
+
+.table-buy {
+    background: #dd209113;
+    padding: 15px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.table-buy p {
+    float: left;
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.4em;
+}
+
+.table-buy p sup {
+    font-size: 0.5em;
+    position: relative;
+    left: 5px;
+}
+
+.table-buy .BotonComprar {
+    float: right;
+    color: #FFF;
+    background: linear-gradient(135deg, #2675f4a7, #9e4ab9c4);
+    ;
+    padding: 10px 16px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 1.4em;
+    text-shadow: 0 1px 1px rgb(0, 0, 0);
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.table-buy .BotonComprar:hover {
+    background: #e3e60d;
+}
+
+.recommended .table-buy .BotonComprar:hover {
+    background: #e3e60d;
+}
+
+/** ================
+ * Responsive
+ ===================*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .pricing-wrapper {
+        width: 768px;
+    }
+
+    .pricing-table {
+        width: 236px;
+    }
+
+    .table-list li {
+        font-size: 1.3em;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .pricing-wrapper {
+        width: 420px;
+    }
+
+    .pricing-table {
+        display: block;
+        float: none;
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .pricing-wrapper {
+        width: 300px;
+    }
+}

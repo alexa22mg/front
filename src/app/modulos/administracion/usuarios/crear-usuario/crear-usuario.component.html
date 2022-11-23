@@ -1,0 +1,39 @@
+<body>
+ <div class="container">
+<form [formGroup]="fgValidador" (ngSubmit)="GuardarUsuario()"  class="row g-3 needs-validation" novalidate>
+        <b class="titulo"> Registro Usuario</b>    
+    <div class="col-md-4">
+        <label class="inf" for="txtCedula" class="form-label">Cedula</label>
+        <input formControlName="cedula" type="text" class="form-control" id="txtCedula" required>
+    </div>
+    <div class="col-md-4">
+        <label for="txtNombre" class="form-label">Nombres</label>
+        <input  formControlName="nombre" type="text" class="form-control" id="txtNombre" required>
+    </div>
+    <div class="col-md-4">
+        <label for="txtApellido" class="form-label">Apellidos</label>
+        <input formControlName="apellido" type="text" class="form-control" id="txtApellido" required>
+    </div>
+    <div class="col-md-4">
+        <label for="txtTelefono" class="form-label">Celular</label>
+        <input formControlName="telefono" type="text" class="form-control" id="txtTelefono" required>
+    </div>
+    <div class="col-md-4">
+        <label for="txtCorreo" class="form-label">Correo</label>
+        <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input formControlName="correo" type="text" class="form-control" id="txtCorreo" aria-describedby="inputGroupPrepend" required>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <label for="txtrol" class="form-label">Rol</label>
+        <input formControlName="rol" type="text" class="form-control" id="txtRol" required>
+    </div>
+    <br>
+    <div class="col-12">
+        <button [disabled]="!fgValidador.valid" class="btn btn-primary" type="submit">Enviar</button>
+    </div>
+</form>
+</div>
+    
+</body>

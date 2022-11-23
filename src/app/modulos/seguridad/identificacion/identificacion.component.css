@@ -1,0 +1,35 @@
+
+body {
+    background-image: url(https://www.promedco.com/images/NOTICIAS_2020/reducir-estres-de-mascotas-1.jpg);
+    
+}
+
+#login-page {
+   width: 350px;
+   color: rgb(12, 12, 11);
+   position: center;
+   text-align: center ;
+  
+
+}
+#col s12 z-depth-6 card-panel{
+    background: linear-gradient(135deg, #adf3bd, #9ebcf5);
+
+}
+#ng-app-mainModule{
+    background: linear-gradient(135deg, #adf3bd, #9ebcf5);
+
+}
+#fgValidador{
+    background: linear-gradient(135deg, #adf3bd, #9ebcf5);
+}
+#row{
+    background: linear-gradient(135deg, #adf3bd, #9ebcf5);
+
+}
+form-label{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+   
+}

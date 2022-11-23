@@ -1,0 +1,165 @@
+/*Registrar mascota*/
+ 
+ .contenedor {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://png.pngtree.com/thumb_back/fw800/background/20210115/pngtree-bones-and-footprints-pattern-background-image_527977.jpg');
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+
+
+/*Especie*/
+
+.especie {
+    margin-bottom: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: 0;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(18, 1, 255);
+    padding: 10px;
+    border-radius: 1px;
+    font-size: 18px; 
+    box-sizing: border-box;
+ }
+
+
+/*Agregar foto*/
+
+
+ .imgadd {       
+               
+    font-size: 16px;
+            font-weight:bolder;
+            color: #fff;
+            display: inline-block;
+            transition: all .5s;
+            cursor: pointer;
+            padding: 15px 110px !important;
+            text-transform: uppercase;
+            width: fit-content;
+            border: 2px solid rgb(2, 60, 248);
+         
+     }
+
+
+/*formulario*/
+
+ .contenedor .form .form-header .form-title {
+     font-weight: normal;
+     font-family: sans-serif;
+     color: #3407fa;
+     text-align: center;
+     }
+
+ 
+ .contenedor .form .form-header .form-title span {
+     color: rgb(252, 252, 252);
+ }
+ 
+ .contenedor .form {
+     background: rgba(6, 78, 235, 0.158);
+     width: 90%;
+     max-width: 650px;
+     margin: auto;
+     padding: 5px 35px;
+     margin-top: 30px;
+     padding-bottom: 30px;
+     border-radius: 3px;
+     
+ }
+ 
+ .contenedor .form .form-label {
+     display: block;
+     color: #fcfcfc;
+     font-size: 16px;
+     font-family: Roboto;
+     position: relative;
+ }
+ 
+ .contenedor .form .form-input, .form-textarea {
+     background: rgba(255, 255, 255, 0.103);
+     border: none;
+     outline: none;
+     border-bottom: 2px solid #2802fffd;
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 20px;
+     border-radius: 2px;
+     font-size: 14px;
+     color: #fff;
+     font-family: Roboto;
+ }
+ 
+ .contenedor .form .form-textarea {
+     resize: vertical;
+     max-height: 150px;
+     min-height: 50px;
+ }
+ 
+
+/*Botones*/
+
+form .button {
+
+    width: 100px;
+    height: 40px;
+    margin: 20px ;
+    font-family: font-weight, sans-serif;
+    display: inline-block; 
+ 
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: rgba(0, 0, 0, 0.993);
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid rgb(189, 188, 188);
+}
+
+form .button input:hover{
+    background: linear-gradient(135deg, #1605ffde, #ff0aca);
+}
+
+
+
+
+
+ @media (min-width:320px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+        table, p, img {
+        padding-right: 1em;
+        width: 100%;
+        }
+     }
+    @media (min-width:480px)  { 
+    /* smartphones, Android phones, landscape iPhone */ 
+    }
+    @media (min-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    }
+    @media (min-width:801px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    }
+    @media (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */ 
+    }
+    @media (min-width:1281px) { 
+    /* hi-res laptops and desktops */}
